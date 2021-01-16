@@ -1,0 +1,289 @@
+[08:34:37] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[08:34:37] [Server thread/INFO]: Loading properties
+[08:34:37] [Server thread/INFO]: Default game type: SURVIVAL
+[08:34:37] [Server thread/INFO]: This server is running CraftBukkit version git-Spigot-db6de12-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[08:34:37] [Server thread/INFO]: Debug logging is disabled
+[08:34:37] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:34:37] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:34:37] [Server thread/INFO]: Generating keypair
+[08:34:38] [Server thread/INFO]: Starting Minecraft server on *:25565
+[08:34:38] [Server thread/INFO]: Using epoll channel type
+[08:34:38] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[08:34:38] [Server thread/INFO]: [NoCheat] Loading NoCheat v${project.version}
+[08:34:38] [Server thread/INFO]: [NoCheat] Enabling NoCheat v${project.version}
+[08:34:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:34:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:34:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[08:34:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:34:38] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:34:38] [Server thread/INFO]: Preparing level "world"
+[08:34:38] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:34:38] [Server thread/INFO]: Anti X-Ray: true
+[08:34:38] [Server thread/INFO]: 	Engine Mode: 1
+[08:34:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:34:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:34:38] [Server thread/INFO]: Mob Spawn Range: 4
+[08:34:38] [Server thread/INFO]: Random Lighting Updates: false
+[08:34:38] [Server thread/INFO]: Structure Info Saving: true
+[08:34:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:34:38] [Server thread/INFO]: Max Entity Collisions: 8
+[08:34:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:34:38] [Server thread/INFO]: Max TNT Explosions: 100
+[08:34:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:34:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:34:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:34:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:34:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:34:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:34:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:34:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:34:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:34:38] [Server thread/INFO]: View Distance: 10
+[08:34:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:34:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:34:38] [Server thread/INFO]: Clear tick list: false
+[08:34:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:34:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:34:38] [Server thread/INFO]: Anti X-Ray: true
+[08:34:38] [Server thread/INFO]: 	Engine Mode: 1
+[08:34:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:34:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:34:38] [Server thread/INFO]: Mob Spawn Range: 4
+[08:34:38] [Server thread/INFO]: Random Lighting Updates: false
+[08:34:38] [Server thread/INFO]: Structure Info Saving: true
+[08:34:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:34:38] [Server thread/INFO]: Max Entity Collisions: 8
+[08:34:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:34:38] [Server thread/INFO]: Max TNT Explosions: 100
+[08:34:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:34:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:34:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:34:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:34:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:34:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:34:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:34:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:34:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:34:38] [Server thread/INFO]: View Distance: 10
+[08:34:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:34:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:34:38] [Server thread/INFO]: Clear tick list: false
+[08:34:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:34:38] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:34:38] [Server thread/INFO]: Anti X-Ray: true
+[08:34:38] [Server thread/INFO]: 	Engine Mode: 1
+[08:34:38] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:34:38] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:34:38] [Server thread/INFO]: Mob Spawn Range: 4
+[08:34:38] [Server thread/INFO]: Random Lighting Updates: false
+[08:34:38] [Server thread/INFO]: Structure Info Saving: true
+[08:34:38] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:34:38] [Server thread/INFO]: Max Entity Collisions: 8
+[08:34:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:34:38] [Server thread/INFO]: Max TNT Explosions: 100
+[08:34:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:34:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:34:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:34:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:34:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:34:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:34:38] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:34:38] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:34:38] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:34:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:34:38] [Server thread/INFO]: View Distance: 10
+[08:34:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:34:38] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:34:38] [Server thread/INFO]: Clear tick list: false
+[08:34:38] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:34:38] [Server thread/INFO]: Preparing start region for level 0 (Seed: 851182535297506181)
+[08:34:39] [Server thread/INFO]: Preparing start region for level 1 (Seed: 851182535297506181)
+[08:34:39] [Server thread/INFO]: Preparing start region for level 2 (Seed: 851182535297506181)
+[08:34:39] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:34:40] [Server thread/INFO]: Done (1.760s)! For help, type "help" or "?"
+[08:44:13] [Thread-8/INFO]: UUID of player tiagodinis_FAKE is baf8b213-4cba-345b-b6e4-90c1a3d15c5a
+[08:44:13] [Server thread/INFO]: tiagodinis_FAKE[/127.0.0.1:35522] logged in with entity id 140 at ([world]-439.8267882321652, 67.83955504981398, 296.6032140307792)
+[08:44:17] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.07883009613721813 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:44:18] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.08340005595729634 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:44:18] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.08340005595729634 (diferença Y esperada) é diferente de -0.15523200451660557 (diferença Y do player)]
+[08:44:18] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.24522952924539868 (diferença Y esperada) é diferente de -0.23052736891295922 (diferença Y do player)]
+[08:44:18] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.3237249992951601 (diferença Y esperada) é diferente de -0.23052736891295922 (diferença Y do player)]
+[08:44:18] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.39120238666550444 (diferença Y esperada) é diferente de -0.30431682745754074 (diferença Y do player)]
+[08:44:18] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.48416234827676874 (diferença Y esperada) é diferente de -0.24695045217892186 (diferença Y do player)]
+[08:44:18] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.4118921873505183 (diferença Y esperada) é diferente de -0.24695045217892186 (diferença Y do player)]
+[08:44:18] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.4118921873505183 (diferença Y esperada) é diferente de -0.24695045217892186 (diferença Y do player)]
+[08:44:19] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.006146560239257815 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:44:19] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.006146560239257815 (diferença Y esperada) é diferente de -0.9114746946091543 (diferença Y do player)]
+[08:44:19] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.0761769867014364 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:44:19] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.006146560239257815 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:44:19] [pool-6-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.006146560239257815 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:44:19] [Server thread/INFO]: tiagodinis_FAKE lost connection: Unfair Advantage: Fly
+[08:44:19] [Server thread/INFO]: tiagodinis_FAKE left the game.
+[08:44:19] [Server thread/INFO]: Kicked tiagodinis_FAKE from the game: 'Unfair Advantage: Fly'
+[08:44:19] [Server thread/INFO]: That player cannot be found
+[08:44:19] [Server thread/INFO]: That player cannot be found
+[08:44:19] [Server thread/INFO]: That player cannot be found
+[08:44:19] [Server thread/INFO]: That player cannot be found
+[08:44:19] [Server thread/WARN]: handleDisconnection() called twice
+[08:44:23] [Thread-9/INFO]: UUID of player tiagodinis_FAKE is baf8b213-4cba-345b-b6e4-90c1a3d15c5a
+[08:44:23] [Server thread/INFO]: tiagodinis_FAKE[/127.0.0.1:36120] logged in with entity id 340 at ([world]-439.8267882321652, 66.69444834916234, 296.6032140307792)
+[08:44:25] [pool-7-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.029527831636603094 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:44:25] [pool-7-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.03508383580632755 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:44:25] [pool-7-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.03508383580632755 (diferença Y esperada) é diferente de -0.09800000190735147 (diferença Y do player)]
+[08:44:25] [pool-7-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.10204897330284089 (diferença Y esperada) é diferente de -0.09800000190735147 (diferença Y do player)]
+[08:44:26] [pool-7-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.04723971113436721 (diferença Y esperada) é diferente de -0.15523200451660557 (diferença Y do player)]
+[08:44:26] [pool-7-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.0701533575497293 (diferença Y esperada) é diferente de -0.23052736891295922 (diferença Y do player)]
+[08:44:27] [Server thread/INFO]: tiagodinis_FAKE was shot by Skeleton
+[08:44:29] [pool-7-thread-1/WARN]: Exception in thread "pool-7-thread-1" 
+[08:44:29] [pool-7-thread-1/WARN]: java.lang.IllegalStateException: Asynchronous entity world add!
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.spigotmc.AsyncCatcher.catchOp(AsyncCatcher.java:14)
+[08:44:29] [pool-7-thread-1/WARN]: 	at net.minecraft.server.v1_8_R3.World.b(World.java:2633)
+[08:44:29] [pool-7-thread-1/WARN]: 	at net.minecraft.server.v1_8_R3.Chunk.addEntities(Chunk.java:820)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:49)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOProvider.callStage2(ChunkIOProvider.java:1)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.skipQueue(AsynchronousExecutor.java:337)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.util.AsynchronousExecutor.getSkipQueue(AsynchronousExecutor.java:295)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.chunkio.ChunkIOExecutor.syncChunkLoad(ChunkIOExecutor.java:16)
+[08:44:29] [pool-7-thread-1/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:115)
+[08:44:29] [pool-7-thread-1/WARN]: 	at net.minecraft.server.v1_8_R3.ChunkProviderServer.getChunkAt(ChunkProviderServer.java:97)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getChunkAt(CraftWorld.java:126)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:90)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftWorld.getBlockAt(CraftWorld.java:568)
+[08:44:29] [pool-7-thread-1/WARN]: 	at org.bukkit.Location.getBlock(Location.java:87)
+[08:44:29] [pool-7-thread-1/WARN]: 	at me.tecnio.anticheat.checks.impl.movement.Speed.onMove(Speed.java:35)
+[08:44:29] [pool-7-thread-1/WARN]: 	at me.tecnio.anticheat.playerdata.PlayerData.lambda$7(PlayerData.java:380)
+[08:44:29] [pool-7-thread-1/WARN]: 	at java.util.ArrayList.forEach(ArrayList.java:1259)
+[08:44:29] [pool-7-thread-1/WARN]: 	at me.tecnio.anticheat.playerdata.PlayerData.lambda$6(PlayerData.java:380)
+[08:44:29] [pool-7-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[08:44:29] [pool-7-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[08:44:29] [pool-7-thread-1/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[08:44:35] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: -0.02528197794696164 (diferença Y esperada) é diferente de 0.08307781780646906 (diferença Y do player)]
+[08:44:35] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido! vel=203.67033307205563]
+[08:44:35] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_expected m=0.33932203190601407 e=0.32971525398825174]
+[08:44:39] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: -0.02528197794696164 (diferença Y esperada) é diferente de 0.08307781780646906 (diferença Y do player)]
+[08:44:40] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_expected m=5.407804483510345 e=1.1237308857646817]
+[08:44:40] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: -0.05172330291675943 (diferença Y esperada) é diferente de -0.28771101458742976 (diferença Y do player)]
+[08:44:40] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_expected m=1.0161265373029518 e=0.41431581716286897]
+[08:44:40] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_expected m=0.5655968784962422 e=0.3579996098120303]
+[08:44:43] [pool-7-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.09260873147382333 (diferença Y esperada) é diferente de -0.30431682745754074 (diferença Y do player)]
+[08:44:43] [Server thread/INFO]: tiagodinis_FAKE lost connection: Unfair Advantage: Fly
+[08:44:43] [Server thread/INFO]: tiagodinis_FAKE left the game.
+[08:44:43] [Server thread/INFO]: Kicked tiagodinis_FAKE from the game: 'Unfair Advantage: Fly'
+[08:44:43] [Server thread/WARN]: handleDisconnection() called twice
+[08:44:47] [Thread-10/INFO]: UUID of player tiagodinis_FAKE is baf8b213-4cba-345b-b6e4-90c1a3d15c5a
+[08:44:47] [Server thread/INFO]: tiagodinis_FAKE[/127.0.0.1:37588] logged in with entity id 1331 at ([world]-439.8267882321652, 66.13228897229955, 296.6032140307792)
+[08:44:49] [pool-8-thread-1/WARN]: Exception in thread "pool-8-thread-1" 
+[08:44:49] [pool-8-thread-1/WARN]: java.lang.NullPointerException
+[08:44:49] [pool-8-thread-1/WARN]: 	at me.tecnio.anticheat.checks.impl.movement.Fly.onMove(Fly.java:18)
+[08:44:49] [pool-8-thread-1/WARN]: 	at me.tecnio.anticheat.playerdata.PlayerData.lambda$7(PlayerData.java:380)
+[08:44:49] [pool-8-thread-1/WARN]: 	at java.util.ArrayList.forEach(ArrayList.java:1259)
+[08:44:49] [pool-8-thread-1/WARN]: 	at me.tecnio.anticheat.playerdata.PlayerData.lambda$6(PlayerData.java:380)
+[08:44:49] [pool-8-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[08:44:49] [pool-8-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[08:44:49] [pool-8-thread-1/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[08:44:49] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.10000000149011612 e=0.0]
+[08:44:50] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.10000000149011612 e=0.0]
+[08:44:50] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.10000000149011612 e=0.0]
+[08:44:50] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.10000000149011612 e=0.0]
+[08:44:50] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.10000000149011612 e=0.0]
+[08:44:50] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.10000000149011612 e=0.0]
+[08:44:50] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.2826267742854043 e=0.0]
+[08:44:50] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.054600007155556796 e=0.0]
+[08:44:51] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido!, onground_block m=0.18262677279528816 e=0.0]
+[08:45:02] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.01368900468692053 (diferença Y esperada) é diferente de 0.08307781780646906 (diferença Y do player)]
+[08:45:02] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.012170189390966764 (diferença Y esperada) é diferente de -0.15523200451660557 (diferença Y do player)]
+[08:45:02] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.035785225572298116 (diferença Y esperada) é diferente de -0.23052736891295922 (diferença Y do player)]
+[08:45:02] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.07015335754972704 (diferença Y esperada) é diferente de -0.23052736891295922 (diferença Y do player)]
+[08:45:02] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.07015335754972704 (diferença Y esperada) é diferente de 0.38108155714897407 (diferença Y do player)]
+[08:45:02] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: -0.06801938973765952 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:45:02] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.029527831636603094 (diferença Y esperada) é diferente de -0.07840000152587834 (diferença Y do player)]
+[08:45:03] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.06946599556569935 (diferença Y esperada) é diferente de -0.15523200451660557 (diferença Y do player)]
+[08:45:03] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.11917065057212432 (diferença Y esperada) é diferente de -0.15523200451660557 (diferença Y do player)]
+[08:45:03] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.11917065057212432 (diferença Y esperada) é diferente de 0.23830982232307463 (diferença Y do player)]
+[08:45:03] [pool-8-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: -0.08020118077455919 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:45:03] [Server thread/INFO]: tiagodinis_FAKE lost connection: Unfair Advantage: Fly
+[08:45:03] [Server thread/INFO]: tiagodinis_FAKE left the game.
+[08:45:03] [Server thread/INFO]: Kicked tiagodinis_FAKE from the game: 'Unfair Advantage: Fly'
+[08:45:03] [Server thread/INFO]: That player cannot be found
+[08:45:03] [Server thread/WARN]: handleDisconnection() called twice
+[08:45:07] [Thread-11/INFO]: UUID of player tiagodinis_FAKE is baf8b213-4cba-345b-b6e4-90c1a3d15c5a
+[08:45:07] [Server thread/INFO]: tiagodinis_FAKE[/127.0.0.1:38770] logged in with entity id 1537 at ([world]-442.2163053033577, 67.1707870772188, 295.2345020516985)
+[08:45:09] [pool-9-thread-1/WARN]: Exception in thread "pool-9-thread-1" 
+[08:45:09] [pool-9-thread-1/WARN]: java.lang.NullPointerException
+[08:45:09] [pool-9-thread-1/WARN]: 	at me.tecnio.anticheat.checks.impl.movement.Fly.onMove(Fly.java:18)
+[08:45:09] [pool-9-thread-1/WARN]: 	at me.tecnio.anticheat.playerdata.PlayerData.lambda$7(PlayerData.java:380)
+[08:45:09] [pool-9-thread-1/WARN]: 	at java.util.ArrayList.forEach(ArrayList.java:1259)
+[08:45:09] [pool-9-thread-1/WARN]: 	at me.tecnio.anticheat.playerdata.PlayerData.lambda$6(PlayerData.java:380)
+[08:45:09] [pool-9-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[08:45:09] [pool-9-thread-1/WARN]: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[08:45:09] [pool-9-thread-1/WARN]: 	at java.lang.Thread.run(Thread.java:748)
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.05109397359277796 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.05621865533472042 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.06124084353956957 (diferença Y esperada) é diferente de -0.09800000190735147 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.14721176004679146 (diferença Y esperada) é diferente de -0.09800000190735147 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.1579436243325914 (diferença Y esperada) é diferente de -0.09800000190735147 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.1684608515373694 (diferença Y esperada) é diferente de -0.09800000190735147 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.17876773439865204 (diferença Y esperada) é diferente de -0.09800000190735147 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.18886847979929722 (diferença Y esperada) é diferente de -0.09800000190735147 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.19876721048458595 (diferença Y esperada) é diferente de -0.17444000526428738 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.2979920785823055 (diferença Y esperada) é diferente de -0.24935121001205118 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.38572570989041643 (diferença Y esperada) é diferente de -0.39470891593393276 (diferença Y do player)]
+[08:45:09] [pool-9-thread-2/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.5559640530339215 (diferença Y esperada) é diferente de -0.39470891593393276 (diferença Y do player)]
+[08:45:09] [Server thread/INFO]: tiagodinis_FAKE lost connection: Unfair Advantage: Fly
+[08:45:09] [Server thread/INFO]: tiagodinis_FAKE left the game.
+[08:45:09] [Server thread/INFO]: Kicked tiagodinis_FAKE from the game: 'Unfair Advantage: Fly'
+[08:45:09] [Server thread/INFO]: That player cannot be found
+[08:45:09] [Server thread/INFO]: That player cannot be found
+[08:45:09] [Server thread/WARN]: handleDisconnection() called twice
+[08:45:13] [Thread-12/INFO]: UUID of player tiagodinis_FAKE is baf8b213-4cba-345b-b6e4-90c1a3d15c5a
+[08:45:13] [Server thread/INFO]: tiagodinis_FAKE[/127.0.0.1:39160] logged in with entity id 1733 at ([world]-442.2163053033577, 65.44152274247074, 295.2345020516985)
+[08:45:28] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.035785225572298116 (diferença Y esperada) é diferente de -0.23052736891295922 (diferença Y do player)]
+[08:45:28] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.07015335754972704 (diferença Y esperada) é diferente de -0.30431682745754074 (diferença Y do player)]
+[08:45:28] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.6674844288190367 e=0.6134]
+[08:45:28] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.1613382502374434 e=0.6134]
+[08:45:29] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.3538005877210995 e=0.6134]
+[08:45:29] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.258040996277376 e=0.6134]
+[08:45:29] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.258040996277376 e=0.6134]
+[08:45:29] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.258040996277376 e=0.6134]
+[08:45:30] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.258040996277376 e=0.6134]
+[08:45:30] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.258040996277376 e=0.6134]
+[08:45:30] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.258040996277376 e=0.6134]
+[08:45:31] [pool-10-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Speed (Movement) [Info: Moveu-se muito rapido no ar!, offground_expected m=1.258040996277376 e=0.6134]
+[08:45:31] [Server thread/INFO]: tiagodinis_FAKE lost connection: Unfair Advantage: Speed
+[08:45:31] [Server thread/INFO]: tiagodinis_FAKE left the game.
+[08:45:31] [Server thread/INFO]: Kicked tiagodinis_FAKE from the game: 'Unfair Advantage: Speed'
+[08:45:31] [Server thread/WARN]: handleDisconnection() called twice
+[08:45:35] [Thread-13/INFO]: UUID of player tiagodinis_FAKE is baf8b213-4cba-345b-b6e4-90c1a3d15c5a
+[08:45:35] [Server thread/INFO]: tiagodinis_FAKE[/127.0.0.1:40458] logged in with entity id 1982 at ([world]-437.5012093178404, 67.0, 283.23866196666467)
+[08:45:47] [pool-11-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.05314286781793309 (diferença Y esperada) é diferente de -0.23052736891296632 (diferença Y do player)]
+[08:45:47] [pool-11-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.09260873147382544 (diferença Y esperada) é diferente de -0.30431682745754074 (diferença Y do player)]
+[08:45:47] [pool-11-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: 0.11461499834774068 (diferença Y esperada) é diferente de -0.23152379758701613 (diferença Y do player)]
+[08:45:47] [pool-11-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: -0.05644717408336149 (diferença Y esperada) é diferente de -0.15212736738708799 (diferença Y do player)]
+[08:45:47] [pool-11-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: -0.018898942800791012 (diferença Y esperada) é diferente de -0.30431682745754074 (diferença Y do player)]
+[08:45:47] [pool-11-thread-1/INFO]: [AntiCheat] tiagodinis_FAKE failed Fly (Movement) [Info: -0.031289639913029674 (diferença Y esperada) é diferente de 0.0 (diferença Y do player)]
+[08:45:51] [Server thread/INFO]: tiagodinis_FAKE lost connection: Disconnected
+[08:45:51] [Server thread/INFO]: tiagodinis_FAKE left the game.
+[09:51:29] [Thread-4/INFO]: Stopping server
