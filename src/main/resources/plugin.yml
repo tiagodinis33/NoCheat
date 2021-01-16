@@ -1,0 +1,7 @@
+name: NoCheat
+version: ${project.version}
+author: Tecnio
+main: me.sxstore.nocheat.nocheat
+load: STARTUP
+api: 
+  - "1.8"

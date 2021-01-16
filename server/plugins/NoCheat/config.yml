@@ -1,0 +1,22 @@
+######################
+#     AntiCheat   #
+######################
+# When a staff member joins automatically enable alerts.
+enable-alerts-on-join: true
+
+# Logging settings.
+logging:
+  enabled: true
+  log-to-console: true
+
+# Check Part
+fly:
+  enabled: true
+  punishable: true
+  punish-command: 'kick %player% Unfair Advantage: %check%'
+  max-vl: 10
+speed:
+  enabled: true
+  punishable: true
+  punish-command: 'kick %player% Unfair Advantage: %check%'
+  max-vl: 10
