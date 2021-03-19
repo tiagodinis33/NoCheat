@@ -4,14 +4,18 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import me.sxstore.nocheat.checks.impl.movement.Fly;
+import me.sxstore.nocheat.checks.impl.combat.Killaura;
+import me.sxstore.nocheat.checks.impl.movement.FlyA;
+import me.sxstore.nocheat.checks.impl.movement.FlyB;
 import me.sxstore.nocheat.checks.impl.movement.Speed;
 
 public class CheckManager {
 
     private static final Class[] checks = new Class[]{
-            Fly.class,
-            Speed.class
+            FlyA.class,
+            Speed.class,
+            Killaura.class,
+            FlyB.class
     };
 
     public static List<Check> loadChecks() {

@@ -14,7 +14,9 @@ public class NoCheatMain extends JavaPlugin {
     private static NoCheatMain instance;
 
     @Override
-    public void onLoad() { PacketEvents.load(); }
+    public void onLoad() {
+        PacketEvents.load();
+    }
 
     @Override
     public void onEnable() {
@@ -23,7 +25,7 @@ public class NoCheatMain extends JavaPlugin {
         saveDefaultConfig();
         Config.updateConfig();
 
-        //PacketEvents
+        // PacketEvents
         PacketEvents.getSettings();
         PacketEvents.start(this);
 
@@ -31,12 +33,16 @@ public class NoCheatMain extends JavaPlugin {
         PacketEvents.getAPI().getEventManager().registerListener(new NetworkListener());
         getServer().getPluginManager().registerEvents(new BukkitListener(), this);
 
-        for (Player player : getServer().getOnlinePlayers()){ DataManager.INSTANCE.register(new PlayerData(player.getUniqueId())); }
+        for (Player player : getServer().getOnlinePlayers()) {
+            DataManager.INSTANCE.register(new PlayerData(player.getUniqueId()));
+            if (Config.ENABLE_ALERTS_ON_JOIN && player.hasPermission("nocheat.alerts"))
+                DataManager.INSTANCE.getUser(player.getUniqueId()).setAlerts(true);
+        }
     }
 
     @Override
     public void onDisable() {
-       PacketEvents.stop();
+        PacketEvents.stop();
     }
 
     public static NoCheatMain getInstance() {

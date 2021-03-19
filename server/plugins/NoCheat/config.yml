@@ -12,10 +12,15 @@ logging:
 # Check Part
 fly:
   enabled: true
-  punishable: true
+  punishable: false
   punish-command: 'kick %player% Unfair Advantage: %check%'
   max-vl: 10
 speed:
+  enabled: true
+  punishable: true
+  punish-command: 'kick %player% Unfair Advantage: %check%'
+  max-vl: 10
+killaura:
   enabled: true
   punishable: true
   punish-command: 'kick %player% Unfair Advantage: %check%'

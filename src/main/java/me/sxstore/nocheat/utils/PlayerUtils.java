@@ -125,10 +125,10 @@ public class PlayerUtils {
         for (double x = -expand; x <= expand; x += expand) {
             for (double z = -expand; z <= expand; z += expand) {
                 if (!location.clone().add(x, -0.05, z).getBlock().getType().equals(Material.AIR)
-                        && !location.clone().add(x, -0.05, z).getBlock().isLiquid())
+                        && !location.clone().add(x, -0.05, z).getBlock().isLiquid()&& location.clone().add(x, -0.5001, z).getBlock().getType().isSolid())
                     return true;
                 if (!location.clone().add(x, -0.5001, z).getBlock().getType().equals(Material.AIR)
-                        && !location.clone().add(x, -0.5001, z).getBlock().isLiquid())
+                        && !location.clone().add(x, -0.5001, z).getBlock().isLiquid()&& location.clone().add(x, -0.5001, z).getBlock().getType().isSolid())
                     return true;
                 if (isOnLilyOrCarpet(player))
                     return true;

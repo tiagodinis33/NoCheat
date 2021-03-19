@@ -1,4 +1,5 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
-    "editor.autoSave": "on"
+    "editor.autoSave": "on",
+    "java.dependency.packagePresentation": "hierarchical"
 }

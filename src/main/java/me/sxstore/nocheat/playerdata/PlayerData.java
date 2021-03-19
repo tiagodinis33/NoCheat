@@ -15,6 +15,7 @@ import me.sxstore.nocheat.utils.PlayerUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.entity.Player;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.util.Vector;
 
 import java.util.List;
@@ -25,6 +26,10 @@ import java.util.concurrent.Executors;
 public class PlayerData {
     public VelocityData getVelocityData() {
         return velocityData;
+    }
+    public int flyThreshold;
+    public boolean canBypassFlags(){
+        return player.hasPermission("nocheat.bypass");
     }
     private VelocityData velocityData = new VelocityData();
     private Player player;
@@ -359,22 +364,17 @@ public class PlayerData {
     public int liquidTicks() { return Math.abs(ticks - liquidTicks); }
 
 
-    /*
-    PacketShit
-     */
 
     public void inbound(PacketReceiveEvent event){
         executorService.execute(() -> checks.forEach(check -> check.onPacketReceive(event, this)));
-        if (event.getPacketId() == PacketType.Client.USE_ENTITY)onAttack(new WrappedPacketInUseEntity(event.getNMSPacket()));
-        if (event.getPacketId() == PacketType.Client.POSITION || event.getPacketId() == PacketType.Client.POSITION_LOOK || event.getPacketId() == PacketType.Client.LOOK)onMove();
     }
 
     public void outgoing(PacketSendEvent event){
         executorService.execute(() -> checks.forEach(check -> check.onPacketSend(event, this)));
     }
 
-    public void onAttack(WrappedPacketInUseEntity packet){
-        executorService.execute(() -> checks.forEach(check -> check.onAttack(packet, this)));
+    public void onAttack(EntityDamageByEntityEvent e){
+        executorService.execute(() -> checks.forEach(check -> check.onAttack(e, this)));
     }
 
     public void onMove(){

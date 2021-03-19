@@ -16,6 +16,7 @@ import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.Listener;
+import org.bukkit.event.entity.EntityDamageByEntityEvent;
 
 public abstract class Check implements Listener {
 
@@ -42,7 +43,7 @@ public abstract class Check implements Listener {
     public void onPacketReceive(final PacketReceiveEvent e, final PlayerData data){}
     public void onPacketSend(final PacketSendEvent e, final PlayerData data){}
     public void onMove(final PlayerData data){}
-    public void onAttack(final WrappedPacketInUseEntity packet, final PlayerData data){}
+    public void onAttack(final EntityDamageByEntityEvent e, final PlayerData data){}
 
     protected void flag(PlayerData data, String information, boolean setback){
 
@@ -73,9 +74,7 @@ public abstract class Check implements Listener {
                 Bukkit.getServer().getScheduler().runTask(NoCheatMain.getInstance(), () -> Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), punishCommand.replace("%player%", data.getPlayer().getName()).replace("%check%", checkName)));
             }
             if(setback && !data.getPlayer().hasPermission("nocheat.bypass")){
-                if(data.getLastLegitLocation() != null)
-                    data.getPlayer().teleport(data.getLastLegitLocation());
-                else
+                
                     data.getPlayer().teleport(data.getLastLocation());
             }
         }
